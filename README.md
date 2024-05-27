@@ -20,3 +20,7 @@ git add .
 git commit -m "add .gitignore, cmds to readme"
 git push origin main
 ```
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+py -m pip install requests
+py -m pip freeze > requirements.txt
